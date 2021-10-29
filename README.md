@@ -9,3 +9,7 @@ We'll be creating the following resources basically:
 5) association of lb with https certificate
 6) Cloud Storage bucket to host Cloud function Code
 7) Cloud function and its public execution
+
+Notes: To use Cloud Storage bucket, it needs to be ensured that the account running the terraform scripts (be it service account or through gcloud SDK),it should be added as the domain owner. This has been explained in the blog post:
+
+https://siddharthmehta72.medium.com/cloud-resume-challenge-gcp-version-6c1f42ebca1e
